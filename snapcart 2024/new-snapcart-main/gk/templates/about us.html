@@ -1,8 +1,8 @@
 <!--about-->
-<link rel="stylesheet" href="../static/about.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
 <title>𝐒𝐍𝐀𝐏𝐂𝐀𝐑𝐓</title>
 
-<link rel="icon" href="../static/img/123.png">
+<link rel="icon" href="{{ url_for('static', filename='img/123.png') }}">
 <div class="about-section">
     <h1>About Us </h1>
    <p style="font-family: Georgia, 'Times New Roman', Times, serif ; font-size: medium;"> Welcome to SnapCart – your ultimate destination for convenient online grocery shopping! At SnapCart, we've partnered with a wide network of trusted grocery stores to bring you a seamless and hassle-free shopping experience from the comfort of your own home. <br>
@@ -20,7 +20,7 @@
   <div class="row">
     <div class="column">
       <div class="card">
-        <img src="../static/img/account13.avif" alt="Jane" style="width:100%">
+        <img src="{{ url_for('static', filename='img/account13.avif') }}" alt="Jane" style="width:100%">
         <div class="container">
           <h2>Guhan Raj</h2>
           <p class="title">Cloud Engineer</p>
@@ -34,7 +34,7 @@
   
     <div class="column">
       <div class="card">
-        <img src="../static/img/account8.avif" alt="Mike" style="width:100%">
+        <img src="{{ url_for('static', filename='img/account8.avif') }}" alt="Mike" style="width:100%">
         <div class="container">
           <h2>Madhumidha</h2>
           <p class="title">FrontEnd Developer</p>
@@ -49,7 +49,7 @@
   
     <div class="column">
       <div class="card">
-        <img src="../static/img/account7.avif" alt="John" style="width:100%">
+        <img src="{{ url_for('static', filename='img/account7.avif') }}" alt="Mike" style="width:100%">
         <div class="container">
           <h2>Ramyakrishnan</h2>
           <p class="title">Backend Developer</p>
