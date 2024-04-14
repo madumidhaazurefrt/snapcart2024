@@ -76,7 +76,8 @@
                 </div>
                 <div class="col-lg-2 col-md-2 col-5">
                   <div class="card"> 
-                    <img src="../static/img/dry1.jpg" > <class="card-img-top">
+                    <img src="{{ url_for('static', filename='img/dry1.jpg') }}" class="card-img-top">
+                  
                     <div class="card-body">
                      <center><h5 class="card-title"><A href="masala.html">Masala And Dryfruits</h5></A></center>
                      <a href="masala.html">View</a>
@@ -85,7 +86,7 @@
                   </div>
                   <div class="col-lg-2 col-md-2 col-5">
                     <div class="card"> 
-                      <img src="../static/img/sweets1.jpg" > <class="card-img-top">
+                      <img src="{{ url_for('static', filename='img/sweets1.jpg') }}" class="card-img-top">
                       <div class="card-body">
                        <center><h5 class="card-title"><a href="sweets.html">Sweets And Carvings</h5></a></center>
                        <a href="sweets.html">View</a>
@@ -94,7 +95,7 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-5">
                       <div class="card"> 
-                        <img src="../static/img/ice1.jpg" > <class="card-img-top">
+                        <img src="{{ url_for('static', filename='img/ice1.jpg') }}" class="card-img-top">
                         <div class="card-body">
                          <center><h5 class="card-title"> <a href="icecreams.html"> Ice Creams And Juices</h5></a></center>
                           <a href="icecreams.html"> view</a>
@@ -104,7 +105,7 @@
                       </div> 
                       <div class="col-lg-2 col-md-2 col-5">
                         <div class="card"> 
-                          <img src="../static/img/maggie4.jpg" ><class="card-img-top">
+                          <img src="{{ url_for('static', filename='img/maggie4.jpg') }}" class="card-img-top">
                           <div class="card-body">
                            <center><h5 class="card-title"><a href="packaged.html"> Packaged  Food  Items</h5></a></center>
                            <a href="packaged.html"> view</a>
@@ -113,7 +114,7 @@
                         </div>
                         <div class="col-lg-2 col-md-2 col-5">
                           <div class="card"> 
-                            <img src="../static/img/milk bread1.jpg" ><class="card-img-top">
+                            <img src="{{ url_for('static', filename='img/milk bread1.jpg') }}" class="card-img-top">
                             <div class="card-body">
                              <center><h5 class="card-title">  <a href="milk.html">Milks And<br> Breads</h5></a></center>
                              <a href="milk.html"> view</a>
@@ -123,7 +124,7 @@
                           
                             <div class="col-lg-2 col-md-2 col-5">
                               <div class="card"> 
-                                <img src="../static/img/chips2.jpg" > <class="card-img-top">
+                                <img src="{{ url_for('static', filename='img/chips2.jpg') }}" class="card-img-top">
                                 <div class="card-body">
                                  <center><h5 class="card-title">     <a href="munchies.html">Munchies And Chips</h5></a></center>
                                  <a href="munchies.html"> view</a>
@@ -132,7 +133,7 @@
                               </div>
                               <div class="col-lg-2 col-md-2 col-5">
                                 <div class="card"> 
-                                  <img src="../static/img/oats2.jpg" > <class="card-img-top">
+                                  <img src="{{ url_for('static', filename='img/oats2.jpg') }}" class="card-img-top">
                                   <div class="card-body">
                                    <center><h5 class="card-title"><a href="sauses.html"> Sauses And Breakfast</h5></a></center>
                                    <a href="sauses.html"> view</a>
@@ -141,7 +142,7 @@
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-5">
                                   <div class="card"> 
-                                    <img src="../static/img/tea1.jpg" > <class="card-img-top">
+                                    <img src="{{ url_for('static', filename='img/tea1.jpg') }}" class="card-img-top">
                                     <div class="card-body">
                                      <center><h5 class="card-title"> <a href="tea.html">Tea And Coffee</h5></a></center>
                                      <a href="tea.html"><br> view</a>
@@ -150,7 +151,7 @@
                                   </div>
                                   <div class="col-lg-2 col-md-2 col-5">
                                     <div class="card"> 
-                                      <img src="../static/img/oreo biscuits.avif" > <class="card-img-top">
+                                      <img src="{{ url_for('static', filename='img/oreo biscuits.avif') }}" class="card-img-top">
                                       <div class="card-body">
                                        <center><h5 class="card-title"> <a href="biscuits.html">Biscuits And Cookies</h5></a></center>
                                        <a href="biscuits.html">view</a>
@@ -159,28 +160,14 @@
                                     </div>
                                     <div class="col-lg-2 col-md-2 col-5">
                                       <div class="card"> 
-                                        <img src="../static/img/makeup2.jpg" >  <class="card-img-top">
+                                        <img src="{{ url_for('static', filename='img/makeup2.jpg') }}" class="card-img-top">
                                         <div class="card-body">
                                          <center><h5 class="card-title"><a href="makeup.html">Makeup And Skincare</h5></a></center>
                                          <a href="makeup.html">view</a>
                                         </div>
                                       </div>
                                       </div>
-                                      <div class="chat-container">
-                                        <a href="#" class="chatBtn">
-                                          <svg
-                                            height="3em"
-                                            fill="black"
-                                            xml:space="preserve"
-                                            viewBox="0 0 1000 1000"
-                                            y="0px"
-                                            x="0px"
-                                            version="1.1"
-                                          >
-                                            <path
-                                              d="M881.1,720.5H434.7L173.3,941V720.5h-54.4C58.8,720.5,10,671.1,10,610.2v-441C10,108.4,58.8,59,118.9,59h762.2C941.2,59,990,108.4,990,169.3v441C990,671.1,941.2,720.5,881.1,720.5L881.1,720.5z M935.6,169.3c0-30.4-24.4-55.2-54.5-55.2H118.9c-30.1,0-54.5,24.7-54.5,55.2v441c0,30.4,24.4,55.1,54.5,55.1h54.4h54.4v110.3l163.3-110.2H500h381.1c30.1,0,54.5-24.7,54.5-55.1V169.3L935.6,169.3z M717.8,444.8c-30.1,0-54.4-24.7-54.4-55.1c0-30.4,24.3-55.2,54.4-55.2c30.1,0,54.5,24.7,54.5,55.2C772.2,420.2,747.8,444.8,717.8,444.8L717.8,444.8z M500,444.8c-30.1,0-54.4-24.7-54.4-55.1c0-30.4,24.3-55.2,54.4-55.2c30.1,0,54.4,24.7,54.4,55.2C554.4,420.2,530.1,444.8,500,444.8L500,444.8z M282.2,444.8c-30.1,0-54.5-24.7-54.5-55.1c0-30.4,24.4-55.2,54.5-55.2c30.1,0,54.4,24.7,54.4,55.2C336.7,420.2,312.3,444.8,282.2,444.8L282.2,444.8z"
-                                            ></path></svg><span class="tooltip">chatbot</span></a>
-                                      </div> 
+                                     
                                       <footer class="footer">
                                         <div class="container">
                                          <center> <p class="footer-text">&copy; 2024 Snapcart.All Rights Reserved.</p></center>                                        </div>
@@ -188,9 +175,8 @@
 
                                                                  
     
-              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
- 
+                                      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+                                      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

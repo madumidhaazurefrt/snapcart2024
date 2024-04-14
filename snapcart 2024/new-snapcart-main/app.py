@@ -26,23 +26,23 @@ sqlconnection.close()
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    return render_template("index.htmll")
 
 @app.route('/about')
 def about():
     return render_template("about us.html")
 
-@app.route('/cartpage')
+@app.route('/feedback')
 def cartpage():
-    return render_template("cart page.html")
+    return render_template("feedback.html")
 
-@app.route('/cleaning')
+@app.route('/categories')
 def cleaning():
-    return render_template("cleaning.html")
+    return render_template("categories.html")
 
-@app.route('/cookies')
+@app.route('/biscuits')
 def cookies():
-    return render_template("cookies.html")
+    return render_template("biscuits.html")
 
 @app.route('/empty payment')
 def emptypayment():
@@ -93,9 +93,7 @@ def milks():
 def munchies():
     return render_template("munchies.html")
 
-@app.route('/oats')
-def oats():
-    return render_template("oats.html")
+
 
 @app.route('/odering confirm')
 def oderingconfirm():
@@ -145,9 +143,9 @@ def signup():
    
        
 
-@app.route('/rice and atta')
+@app.route('/oils and atta')
 def riceandatta():
-    return render_template("rice and atta.html")
+    return render_template("oils and atta.html")
 
 @app.route('/sauses')
 def sauses():
@@ -161,9 +159,9 @@ def sabmit():
 def sweets():
     return render_template("sweets.html")
 
-@app.route('/tea and cofee')
+@app.route('/tea')
 def teaandcofee():
-    return render_template("tea and cofee.html")
+    return render_template("tea.html")
     
 
 if __name__ == '__main__':

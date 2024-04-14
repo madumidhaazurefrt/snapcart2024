@@ -5,10 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>𝐒𝐍𝐀𝐏𝐂𝐀𝐑𝐓</title>
-  <link rel="icon" href="../static/img/123.png">
-  <link rel="stylesheet" href="../static/style1.css">
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
- 
+  <link rel="stylesheet" href="{{ url_for('static', filename='emptypayment.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='img/123.png') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -40,7 +39,7 @@
         <div class="cart-content">
 <!---->
           <div class="cart-box">
-            <img src="../static/img/dates.jpg" class="cart-img">
+            <img src="{{ url_for('static', filename='img/dates.jpg') }}" class="cart-img">
             <div class="detail-box">
               <div class="cart-food-title">Dates</div>
               <div class="price-box">
@@ -52,7 +51,7 @@
           </div>
 
           <div class="cart-box">
-            <img src="../static/img/mixed dry fruits.jpg" class="cart-img">
+            <img src="{{ url_for('static', filename='img/mixed dry fruits.jpg') }}" class="cart-img">
             <div class="detail-box">
               <div class="cart-food-title">Dry Fruits</div>
               <div class="price-box">
