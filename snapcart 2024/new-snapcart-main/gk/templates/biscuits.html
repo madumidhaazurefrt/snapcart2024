@@ -106,61 +106,73 @@
       </div>
   
       <div class="food-box">
-        <div class="pic"><img src="../static/img/jam cookies.avif" class="food-img"></div>
+        <div class="pic">
+          <img src="{{ url_for('static', filename='img/jam cookies.avif') }}" class="food-img"></div>
+
         <h2 class="food-title">Jam Cookies</h2>
         <span class="food-price">Rs.35</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/mixed cookies.avif" class="food-img"></div>
+        <div class="pic"><img src="{{ url_for('static', filename='img/mixed cookies.avif') }}" class="food-img"></div>
         <h2 class="food-title">Mixed Cookies</h2>
         <span class="food-price">Rs.45</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/orange cookies.avif" class="food-img"></div>
+        <div class="pic"> <img src="{{ url_for('static', filename='img/orange cookies.avif') }}" class="food-img"></div>
         <h2 class="food-title">Orange Cookies</h2>
         <span class="food-price">Rs.40</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/delicious-cookies_144627-2156plain biscyits.avif" class="food-img"></div>
+        <div class="pic"> <img src="{{ url_for('static', filename='img/delicious-cookies_144627-2156plain biscyits.avif') }}" class="food-img"></div>
         <h2 class="food-title">Delicious Cookies</h2>
         <span class="food-price">Rs.20</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/biscuit2.jpg" class="food-img"></div>
+        <div class="pic"><img src="{{ url_for('static', filename='img/biscuit2.jpg') }}" class="food-img"></div>
         <h2 class="food-title">Plain Biscuits</h2>
         <span class="food-price">Rs.10</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/tea biscuits.avif" class="food-img"></div>
+        <div class="pic">
+          <img src="{{ url_for('static', filename='img/tea biscuits.avif') }}" class="food-img">
+      </div>
         <h2 class="food-title">Tea Biscuits </h2>
         <span class="food-price">Rs.50</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/oreo biscuits.avif" class="food-img"></div>
+        <div class="pic">
+          <img src="{{ url_for('static', filename='img/oreo biscuits.avif') }}" class="food-img">
+      </div>
         <h2 class="food-title">Oreo Biscuits  </h2>
         <span class="food-price">Rs.10</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/animal biscuits.avif" class="food-img"></div>
+        <div class="pic">
+          <img src="{{ url_for('static', filename='img/animal biscuits.avif') }}" class="food-img">
+      </div>
         <h2 class="food-title">Animal Biscuits </h2>
         <span class="food-price">Rs.10</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/burger biscuits.avif" class="food-img"></div>
+        <div class="pic">
+          <img src="{{ url_for('static', filename='img/burger biscuits.avif') }}" class="food-img">
+      </div>
         <h2 class="food-title">Burger Biscuits</h2>
         <span class="food-price">Rs.70</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
       </div>
       <div class="food-box">
-        <div class="pic"><img src="../static/img/butter biscuits.avif" class="food-img"></div>
+        <div class="pic">
+          <img src="{{ url_for('static', filename='img/butter biscuits.avif') }}" class="food-img">
+      </div>
         <h2 class="food-title">Butter Biscuits</h2>
         <span class="food-price">Rs.20</span>
         <ion-icon name="cart" class="add-cart"></ion-icon>
@@ -168,6 +180,6 @@
      
      </div>
   </div>
-  <script src="../static/script.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
